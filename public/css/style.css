@@ -1,0 +1,82 @@
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section > div {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #000000;
+}
+
+#utilisateurs-recents {
+    width: 100%
+}
+
+#utilisateurs-recents ul {
+    display: flex;
+}
+
+#utilisateurs-recents li {
+    width: 25%;
+}
+
+#utilisateurs-recents article {
+    padding: 15px;
+    text-align: center;
+}
+
+#utilisateurs-recents .cadre {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #000000;
+}
+
+#articles {
+    width: 60%;
+}
+
+#articles li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+}
+
+#articles article {
+    display: flex;
+    align-items: center;
+}
+
+#articles img {
+    width: 30%;
+}
+
+#articles article div {
+    width: 70%;
+    padding: 15px;
+}
+
+#articles-recents {
+    width: 40%;
+}
+
+#articles-recents li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+}
